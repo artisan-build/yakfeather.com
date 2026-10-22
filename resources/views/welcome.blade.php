@@ -102,6 +102,8 @@
                 <dd>{{ app()->version() }}</dd>
                 <dt>Health check</dt>
                 <dd><code>/up</code></dd>
+                <dt>Build marker</dt>
+                <dd data-testid="welcome-build-marker">stopped-env-deploy-test-1</dd>
             </dl>
         </main>
     </body>
