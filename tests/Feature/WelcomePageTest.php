@@ -5,7 +5,8 @@ test('the welcome page renders', function (): void {
         ->assertOk()
         ->assertSee('data-testid="welcome-main"', escape: false)
         ->assertSee('data-testid="welcome-heading"', escape: false)
-        ->assertSee('data-testid="welcome-body"', escape: false);
+        ->assertSee('data-testid="welcome-body"', escape: false)
+        ->assertSee('data-testid="welcome-build-marker"', escape: false);
 });
 
 test('the welcome page reports the runtime actually serving it', function (): void {
